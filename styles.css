@@ -1,23 +1,21 @@
 body{
-    margin: 0;
+    font-family: sans-serif;
+    margin: 0px;
     background-color: azure;
+    padding: 0px;
 }
+
 .evil {
-    justify-self: center;
     height: 100vh;
-    max-width: 40vw;
-    
+   max-width: 40vw;
+   margin-right: 5vw;   
 }
 .container{
     display: flex;
+    flex-flow: row wrap;
+   
 }
 
-.form{
-    display: flex;
-    margin-left: 10vw;
-    margin-right: 5vw;
-    
-}
 
 .title{
     color:darkseagreen;
@@ -31,22 +29,69 @@ body{
 }
 
 .disclaimer{
-    margin-left: 10vw;
-    margin-right: 5vw;
+    text-align: center;
 }
 
-form{
-    border-style: solid;
-    padding: 20px;
-    display: grid;
+
+
+.form{
+    
+   box-shadow: 10px 10px 20px -2px darkseagreen;
+   
+   /*
+   border-style: solid;
+   border-color: lightslategray;
+   */
+  
+   padding: 20px;
+
+}
+.text{
+    width: 50vw;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    
+}
+
+label {
+    color: lightslategray;
+    font-weight: 600;
+}
+
+.form2 {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+}
+
+.item{
+    display: flex;
+    flex-flow: column wrap;
+    min-width: 40%;
+    
+}
+
+
+
+
+input {
+    display: flex;
+    height: 15px;
+    background-color: lightcyan;
+}
+
+.sub-button{
     margin-top: 5vh;
-    margin-left: 5vw;
 }
 
-.name{
-margin-bottom: 5vh;
-}
-
-.contact{
-    margin-bottom: 5vh;
+.submit{
+    font-family: sans-serif;
+    padding: 10px;
+    font-weight: 700;
+    border-color:lightslategray;
+    background-color:lightcyan;
+    color: darkseagreen;
+    border-radius: 10%;
+    box-shadow: 10px 10px 20px -2px darkseagreen;
 }

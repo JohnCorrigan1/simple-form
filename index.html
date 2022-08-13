@@ -12,49 +12,54 @@
 <body>
     <div class="container">
         <div class ="image">
-            <img class="evil" src="img/cyberpunk.jpg">
+            <div class="logo-area">
+                <img class="butterfly" src="img/butterfly-1860092_1920.png">
+                <h1>Blue or Red</h1>
+            </div>
         </div>
         <div class="text">
-        <div class="disclaimer">
-            <h1 class="title">Enter the Matrix</h1>
-            <p class="about">This is not a real online service!</p>
-            <p class="about">The information you enter will fall into the void...</p>
-        </div>
-        
+            <div class="disclaimer">
+                <h1 class="title">Enter the Matrix</h1>
+                <p class="about">This is not a real online service!</p>
+                <p class="about">The information you enter will fall into the void...</p>
+            </div>
+            
         
             <form action="" >
                 <div class="form">
-                <div class="form2">    
+                    <div class="form2">    
+                        <div class="item">
+                        <label for="fname">First Name</label>
+                        <input type="text" name="fname" required>
+                    </div>
                     <div class="item">
-                     <label for="fname">First Name</label>
-                     <input type="text" name="fname">
-                 </div>
-                 <div class="item">
-                     <label for="lname">Last Name</label>
-                    <input type="text" name="lname">
-                </div>
-                
-                <div class="item">
-                    <label for="email">Email</label>
-                    <input type="email" name="email">
-                </div>
-                <div class="item">
-                    <label for="phone">Phone Number</label>
-                    <input type="text" name="phone">
-                </div>
-                <div class="item">
-                    <label for="password">Password</label>
-                    <input type="password" name="password">
-                </div>
-                <div class="item">
-                    <label for="confirm">Confirm Password</label>
-                    <input type="password" name="confirm">
+                        <label for="lname">Last Name</label>
+                        <input type="text" name="lname" required>
+                    </div>
+                    
+                    <div class="item">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" required>
+                    </div>
+                    <div class="item">
+                        <label for="phone">Phone Number</label>
+                        <input type="text" name="phone" required>
+                    </div>
+                    <div class="item">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" required>
+                    </div>
+                    <div class="item">
+                        <label for="confirm">Confirm Password</label>
+                        <input type="password" name="confirm" required>
+                    </div>
                 </div>
             </div>
-            
-        </div>
         <div class="sub-button"><button class="submit" type="submit">Create Account</button></div>
         </form>
+        <div class="log-in">
+            <p>Already have an account? <a href="#">Log in here</a></p>
+        </div>
         
         <footer>
             <p class="footer">Designed by: John Corrigan</p>

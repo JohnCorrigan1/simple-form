@@ -6,11 +6,35 @@ body{
     max-height: 100vh;
 }
 
-.evil {
+.image {
+    display: flex;
+   align-items: center;
+    
     height: 100vh;
-   max-width: 40vw;
-   margin-right: 5vw;   
+   min-width: 40vw;
+   margin-right: 5vw;
+   background-image: url(img/matrix.jpg);
 }
+
+.butterfly{
+    display: flex;
+    max-height: 100px;
+    
+}
+
+.logo-area{
+    display: flex;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 1000;
+    font-size: x-large;
+    width: 40vw;
+    height: auto;
+    background-color: rgba(69, 69, 69, 0.7);
+    align-items: center;
+   justify-content: center;
+}
+
 .container{
     display: flex;
     flex-flow: row wrap;
@@ -118,4 +142,12 @@ footer {
 
 .github-logo:hover{
     transform: scale(1.25);
+}
+
+.log-in{
+    margin-top: 3vh;
+}
+
+.log-in a{
+    color: darkseagreen;
 }

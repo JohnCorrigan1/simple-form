@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    background-color: azure;
+}
+.evil {
+    justify-self: center;
+    height: 100vh;
+    max-width: 40vw;
+    
+}
+.container{
+    display: flex;
+}
+
+.form{
+    display: flex;
+    margin-left: 10vw;
+    margin-right: 5vw;
+    
+}
+
+.title{
+    color:darkseagreen;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.about{
+    color: darkseagreen;
+    font-size: large;
+}
+
+.disclaimer{
+    margin-left: 10vw;
+    margin-right: 5vw;
+}
+
+form{
+    border-style: solid;
+    padding: 20px;
+    display: grid;
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+
+.name{
+margin-bottom: 5vh;
+}
+
+.contact{
+    margin-bottom: 5vh;
+}

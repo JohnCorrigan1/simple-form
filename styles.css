@@ -3,6 +3,7 @@ body{
     margin: 0px;
     background-color: azure;
     padding: 0px;
+    max-height: 100vh;
 }
 
 .evil {
@@ -94,4 +95,22 @@ input {
     color: darkseagreen;
     border-radius: 10%;
     box-shadow: 10px 10px 20px -2px darkseagreen;
+}
+
+footer {
+    
+    position: fixed;
+    bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+.footer {
+    margin-right: 5px;
+}
+
+.github-logo:hover{
+    transform: scale(1.25);
 }

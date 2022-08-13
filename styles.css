@@ -82,6 +82,11 @@ input {
     background-color: lightcyan;
 }
 
+input:focus{
+    border: 3px solid blue;
+    
+}
+
 .sub-button{
     margin-top: 5vh;
 }

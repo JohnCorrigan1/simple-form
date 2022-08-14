@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/ico"  href="img/favicon.ico">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <title>Matrix Form</title>
 </head>
 <body>
@@ -25,37 +25,43 @@
             </div>
             
         
-            <form action="" >
+            <form id="form" action="/" method="GET">
                 <div class="form">
                     <div class="form2">    
                         <div class="item">
                         <label for="fname">First Name</label>
-                        <input type="text" name="fname" required>
+                        <input id="fname" type="text" name="fname">
+                        <small id="fnameError"></small>
                     </div>
                     <div class="item">
                         <label for="lname">Last Name</label>
-                        <input type="text" name="lname" required>
+                        <input id="lname" type="text" name="lname">
+                        <small></small>
                     </div>
                     
                     <div class="item">
                         <label for="email">Email</label>
-                        <input type="email" name="email" required>
+                        <input id="email" type="email" name="email">
+                        <small></small>
                     </div>
                     <div class="item">
-                        <label for="phone">Phone Number</label>
-                        <input type="text" name="phone" required>
+                        <label id="phone" for="phone">Phone Number</label>
+                        <input type="text" name="phone" >
+                        <small></small>
                     </div>
                     <div class="item">
-                        <label for="password">Password</label>
-                        <input type="password" name="password" required>
+                        <label id="password" for="password">Password</label>
+                        <input type="password" name="password" >
+                        <small></small>
                     </div>
                     <div class="item">
-                        <label for="confirm">Confirm Password</label>
-                        <input type="password" name="confirm" required>
+                        <label id="confirm" for="confirm">Confirm Password</label>
+                        <input type="password" name="confirm">
+                        <small></small>
                     </div>
                 </div>
             </div>
-        <div class="sub-button"><button class="submit" type="submit">Create Account</button></div>
+        <div class="sub-button"><button id="submit" class="submit" type="submit">Create Account</button></div>
         </form>
         <div class="log-in">
             <p>Already have an account? <a href="#">Log in here</a></p>

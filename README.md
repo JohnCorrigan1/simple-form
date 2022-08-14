@@ -4,6 +4,3 @@
 
 
 ![Demo](img/demo.png)
-
-
-# test branch logo
